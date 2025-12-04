@@ -1,9 +1,7 @@
 import { Leaf, Instagram, Mail } from "lucide-react";
 import logo from "@/assets/logo-transparent.png";
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground py-16">
+  return <footer className="bg-primary text-primary-foreground py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
@@ -34,14 +32,11 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-lg mb-4">Contato</h4>
             <div className="space-y-3">
-              <a href="mailto:contato@arece.com.br" className="flex items-center gap-2 text-primary-foreground/70 hover:text-accent transition-colors">
+              <a className="flex items-center gap-2 text-primary-foreground/70 hover:text-accent transition-colors" href="mailto:arece.cosmeticos@gmail.com">
                 <Mail size={18} />
-                contato@arece.com.br
+                arece.cosmeticos@gmail.com
               </a>
-              <a href="#" className="flex items-center gap-2 text-primary-foreground/70 hover:text-accent transition-colors">
-                <Instagram size={18} />
-                @arece.oficial
-              </a>
+              
             </div>
           </div>
         </div>
@@ -56,8 +51,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
