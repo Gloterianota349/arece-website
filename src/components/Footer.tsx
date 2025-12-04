@@ -10,8 +10,7 @@ const Footer = () => {
               <img src={logo} alt="Arecê" className="h-10 w-auto brightness-0 invert" />
               <span className="font-display text-2xl">Arecê</span>
             </div>
-            <p className="text-primary-foreground/70 leading-relaxed">Essência que encanta, 
-proteção que te acompanha!</p>
+            <p className="text-primary-foreground/70 leading-relaxed">Essência que encanta, proteção que te acompanha!</p>
           </div>
 
           {/* Quick Links */}
