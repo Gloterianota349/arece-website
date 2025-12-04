@@ -48,7 +48,7 @@ const DifferentialsSection = () => {
 
         {/* Why Choose Section */}
         <div className="bg-accent/20 rounded-3xl p-8 md:p-12 border border-accent/30">
-          <h3 className="text-3xl font-display text-center mb-8 md:text-4xl text-primary-foreground">
+          <h3 className="text-4xl font-display text-center mb-8 md:text-4xl text-primary-foreground">
             Por que escolher Arecê?
           </h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
