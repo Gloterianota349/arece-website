@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto">
           <img alt="Arecê" className="w-32 h-32 mx-auto mb-8 animate-scale-in" src="/lovable-uploads/b6c8f37d-00e0-4b5d-8afe-08224e7a2630.png" />
           
-          <h1 className="text-5xl md:text-7xl font-display text-primary mb-4 animate-fade-in">
+          <h1 className="text-7xl md:text-7xl font-display text-primary mb-4 animate-fade-in">
             Arecê
           </h1>
           
