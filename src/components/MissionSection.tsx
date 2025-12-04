@@ -1,4 +1,4 @@
-import { Target, Eye, Heart, Shield, Lightbulb, Leaf, Sparkles, Package, Users } from "lucide-react";
+import { Target, Eye, Heart, Shield, Lightbulb, Leaf, Sparkles, Package, Users, HeartPulse, Recycle } from "lucide-react";
 
 const MissionSection = () => {
   const values = [
@@ -97,13 +97,15 @@ const MissionSection = () => {
             Alinhados com os Objetivos de Desenvolvimento Sustentável
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
-            <div className="px-6 py-3 bg-primary/10 rounded-full">
+            <div className="flex items-center gap-2 px-6 py-3 bg-primary/10 rounded-full">
+              <HeartPulse className="w-5 h-5 text-primary" />
               <span className="text-primary font-semibold">ODS 3</span>
-              <span className="text-foreground/70 ml-2">Saúde e Bem-estar</span>
+              <span className="text-foreground/70">Saúde e Bem-estar</span>
             </div>
-            <div className="px-6 py-3 bg-accent/10 rounded-full">
+            <div className="flex items-center gap-2 px-6 py-3 bg-accent/10 rounded-full">
+              <Recycle className="w-5 h-5 text-accent" />
               <span className="text-accent font-semibold">ODS 12</span>
-              <span className="text-foreground/70 ml-2">Consumo Responsável</span>
+              <span className="text-foreground/70">Consumo Responsável</span>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-transparent.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,8 +8,8 @@ const Header = () => {
   const navItems = [
     { label: "Início", href: "#inicio" },
     { label: "Produto", href: "#produto" },
-    { label: "Diferenciais", href: "#diferenciais" },
-    { label: "Nossa Missão", href: "#missao" },
+    { label: "Por que Arecê?", href: "#diferenciais" },
+    { label: "Nossos Pilares", href: "#missao" },
     { label: "Equipe", href: "#equipe" },
   ];
 

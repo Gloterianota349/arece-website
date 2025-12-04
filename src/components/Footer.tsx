@@ -1,5 +1,5 @@
 import { Leaf, Instagram, Mail } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-transparent.png";
 
 const Footer = () => {
   return (
@@ -24,8 +24,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#inicio" className="text-primary-foreground/70 hover:text-accent transition-colors">Início</a></li>
               <li><a href="#produto" className="text-primary-foreground/70 hover:text-accent transition-colors">Produto</a></li>
-              <li><a href="#diferenciais" className="text-primary-foreground/70 hover:text-accent transition-colors">Diferenciais</a></li>
-              <li><a href="#missao" className="text-primary-foreground/70 hover:text-accent transition-colors">Nossa Missão</a></li>
+              <li><a href="#diferenciais" className="text-primary-foreground/70 hover:text-accent transition-colors">Por que Arecê?</a></li>
+              <li><a href="#missao" className="text-primary-foreground/70 hover:text-accent transition-colors">Nossos Pilares</a></li>
               <li><a href="#equipe" className="text-primary-foreground/70 hover:text-accent transition-colors">Equipe</a></li>
             </ul>
           </div>
