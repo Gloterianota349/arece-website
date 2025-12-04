@@ -11,8 +11,7 @@ const Footer = () => {
               <span className="font-display text-2xl">Arecê</span>
             </div>
             <p className="text-primary-foreground/70 leading-relaxed">
-              Proteção que vem da raíz. Um perfume sólido natural que une 
-              fragrância, sustentabilidade e proteção contra mosquitos.
+              Arecê: Essência que encanta, proteção que te acompanha!
             </p>
           </div>
 
