@@ -70,20 +70,20 @@ const DifferentialsSection = () => {
         </div>
 
         {/* Why Choose Section */}
-        <div className="bg-primary-foreground/5 rounded-3xl p-8 md:p-12 border border-primary-foreground/10">
-          <h3 className="text-2xl md:text-3xl font-display text-center mb-8">
+        <div className="bg-accent/20 rounded-3xl p-8 md:p-12 border border-accent/30">
+          <h3 className="text-2xl md:text-3xl font-display text-center mb-8 text-accent">
             Por que escolher Arecê?
           </h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {reasons.map((reason, index) => (
               <div 
                 key={index}
-                className="flex items-center gap-3 p-4 bg-primary-foreground/5 rounded-xl"
+                className="flex items-center gap-3 p-4 bg-accent/10 rounded-xl border border-accent/20"
               >
                 <div className="w-6 h-6 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
                   <Check className="w-4 h-4 text-accent-foreground" />
                 </div>
-                <span className="text-primary-foreground/90">{reason}</span>
+                <span className="text-primary-foreground">{reason}</span>
               </div>
             ))}
           </div>

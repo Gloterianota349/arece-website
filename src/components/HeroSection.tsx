@@ -44,10 +44,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <ArrowDown className="text-primary/50" size={32} />
-      </div>
     </section>
   );
 };
