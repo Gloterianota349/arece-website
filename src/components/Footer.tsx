@@ -11,7 +11,8 @@ const Footer = () => {
               <span className="font-display text-2xl">Arecê</span>
             </div>
             <p className="text-primary-foreground/70 leading-relaxed">
-              Essência que encanta, proteção que te acompanha!
+              Essência que encanta, 
+proteção que te acompanha!
             </p>
           </div>
 
