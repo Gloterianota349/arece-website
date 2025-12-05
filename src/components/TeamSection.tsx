@@ -1,7 +1,7 @@
 import { Linkedin } from "lucide-react";
-import beatriz from "@/assets/beatriz.png";
-import gabriela from "@/assets/gabriela.png";
-import guilherme from "@/assets/guilherme.png";
+import beatriz from "@/assets/beatriz-new.jpg";
+import gabriela from "@/assets/gabriela-new.jpg";
+import guilherme from "@/assets/guilherme-new.jpg";
 
 const TeamSection = () => {
   const team = [
@@ -48,11 +48,11 @@ const TeamSection = () => {
               className="group text-center"
             >
               <div className="relative mb-6 mx-auto w-48 h-48">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full opacity-20 group-hover:opacity-30 transition-opacity" />
+                <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full opacity-20 group-hover:opacity-30 transition-opacity -z-10" />
                 <img 
                   src={member.image} 
                   alt={member.name}
-                  className="w-full h-full object-cover rounded-full border-4 border-background shadow-xl"
+                  className="w-full h-full object-cover rounded-full border-4 border-background shadow-xl relative z-10"
                 />
               </div>
               <h3 className="text-xl font-display text-primary mb-1">{member.name}</h3>
