@@ -15,6 +15,8 @@ export default {
     extend: {
       fontFamily: {
         display: ['"TAN Pearl"', 'Georgia', 'serif'],
+        'mon-cheri': ['"TAN Mon Cheri"', 'Georgia', 'serif'],
+        'didact': ['"Didact Gothic"', 'sans-serif'],
         body: ['Montserrat', 'sans-serif'],
       },
       colors: {
