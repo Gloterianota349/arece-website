@@ -59,7 +59,7 @@ const TeamSection = () => {
           {team.map((member, index) => (
             <div 
               key={index}
-              className="group text-center"
+              className="group text-center w-full sm:w-[260px]"
             >
               <div className="relative mb-6 mx-auto w-48 h-48">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full opacity-20 group-hover:opacity-30 transition-opacity -z-10" />
