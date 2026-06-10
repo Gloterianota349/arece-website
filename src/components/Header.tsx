@@ -52,9 +52,10 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className={
                   cta.highlight
-                    ? "px-4 py-2 rounded-full text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-md"
+                    ? "px-4 py-2 rounded-full text-sm font-semibold text-white transition-all shadow-md hover:opacity-90"
                     : "px-4 py-2 rounded-full text-sm font-semibold border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
                 }
+                style={cta.highlight ? { backgroundImage: "linear-gradient(90deg, #ef4444, #f59e0b, #eab308, #22c55e, #3b82f6, #8b5cf6)" } : undefined}
               >
                 {cta.label}
               </a>
@@ -87,24 +88,26 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex flex-wrap gap-2 pt-4 border-t border-border">
+            <ul className="space-y-3 pt-4 border-t border-border">
               {ctaItems.map((cta) => (
-                <a
-                  key={cta.href}
-                  href={cta.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setIsMenuOpen(false)}
-                  className={
-                    cta.highlight
-                      ? "px-4 py-2 rounded-full text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
-                      : "px-4 py-2 rounded-full text-sm font-semibold border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
-                  }
-                >
-                  {cta.label}
-                </a>
+                <li key={cta.href}>
+                  <a
+                    href={cta.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsMenuOpen(false)}
+                    className={
+                      cta.highlight
+                        ? "block font-medium py-1 bg-clip-text text-transparent"
+                        : "block text-foreground/80 hover:text-primary transition-colors font-medium py-1"
+                    }
+                    style={cta.highlight ? { backgroundImage: "linear-gradient(90deg, #ef4444, #f59e0b, #eab308, #22c55e, #3b82f6, #8b5cf6)" } : undefined}
+                  >
+                    {cta.label}
+                  </a>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         )}
       </div>

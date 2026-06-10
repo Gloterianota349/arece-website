@@ -10,19 +10,19 @@ const TeamSection = () => {
     {
       name: "Beatriz Mota",
       role: "CPO - Chief Product Officer",
-      description: "Responsável pela formulação cosmética do produto",
+      description: "Responsável pelo desenvolvimento e evolução do produto",
       image: beatriz
     },
     {
       name: "Gabriela Salomão",
       role: "COO - Chief Operating Officer",
-      description: "Responsável pelos testes científicos e validação",
+      description: "Responsável pelas operações e processos da empresa",
       image: gabriela
     },
     {
       name: "Guilherme Andrade",
       role: "CFO - Chief Financial Officer",
-      description: "Responsável pela análise e projeção mercadológica",
+      description: "Responsável pela gestão financeira e projeções estratégicas",
       image: guilherme
     },
     {
