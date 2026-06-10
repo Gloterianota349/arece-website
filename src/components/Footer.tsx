@@ -33,9 +33,13 @@ const Footer = () => {
                 <Mail size={18} />
                 arece.cosmeticos@gmail.com
               </a>
-              
+              <a className="flex items-center gap-2 text-primary-foreground/70 hover:text-accent transition-colors" href="https://instagram.com/arece_cosmeticos" target="_blank" rel="noopener noreferrer">
+                <Instagram size={18} />
+                @arece_cosmeticos
+              </a>
             </div>
           </div>
+
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
