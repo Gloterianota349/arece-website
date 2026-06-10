@@ -2,6 +2,8 @@ import { Linkedin } from "lucide-react";
 import beatriz from "@/assets/beatriz-new.jpg";
 import gabriela from "@/assets/gabriela-new.jpg";
 import guilherme from "@/assets/guilherme-new.jpg";
+import diogoAsset from "@/assets/diogo.png.asset.json";
+import igorAsset from "@/assets/igor.png.asset.json";
 
 const TeamSection = () => {
   const team = [
@@ -22,6 +24,18 @@ const TeamSection = () => {
       role: "Análise Mercadológica",
       description: "Responsável pela análise e projeção mercadológica",
       image: guilherme
+    },
+    {
+      name: "Diogo Maia",
+      role: "CMO - Chief Marketing Officer",
+      description: "Responsável pela estratégia de marketing e marca",
+      image: diogoAsset.url
+    },
+    {
+      name: "Igor Felipe Lima",
+      role: "CSO - Chief Scientific Officer",
+      description: "Responsável pela direção científica e pesquisa",
+      image: igorAsset.url
     }
   ];
 
