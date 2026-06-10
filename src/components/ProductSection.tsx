@@ -75,8 +75,7 @@ const ProductSection = () => {
               A ciência por trás da proteção
             </h3>
             <p className="text-foreground/80 leading-relaxed mb-6">
-              O ativo repelente do nosso perfume é extraído da <strong>Copaíba</strong>, 
-              uma espécie nativa brasileira estudada por suas propriedades insetífugas. 
+              O ativo repelente do nosso perfume é extraído de uma <strong>planta nativa brasileira</strong> estudada por suas propriedades insetífugas. 
               Esse composto natural age interferindo na capacidade do mosquito de 
               identificar sinais humanos, criando uma barreira aromática protetiva.
             </p>

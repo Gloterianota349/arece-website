@@ -27,7 +27,7 @@ const HeroSection = () => {
         }}>
             Um perfume sólido 100% natural que, além de encantar pelo aroma, 
             protege contra o <strong className="text-primary">Aedes aegypti</strong> graças 
-            ao poder repelente do <strong className="text-primary">óleo de copaíba</strong> — 
+            ao seu <strong className="text-primary">poder repelente</strong>&nbsp;— 
             um ativo nativo da nossa biodiversidade.
           </p>
 
