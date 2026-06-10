@@ -22,6 +22,9 @@ const Footer = () => {
               <li><a href="#diferenciais" className="text-primary-foreground/70 hover:text-accent transition-colors">Por que Arecê?</a></li>
               <li><a href="#missao" className="text-primary-foreground/70 hover:text-accent transition-colors">Nossos Pilares</a></li>
               <li><a href="#equipe" className="text-primary-foreground/70 hover:text-accent transition-colors">Equipe</a></li>
+              <li><a href="https://tally.so/r/q4WgRO" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-accent transition-colors">Lista de Espera</a></li>
+              <li><a href="https://tally.so/r/obzjvx" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-accent transition-colors">Investidores</a></li>
+              <li><a href="https://areceforkids.lovable.app" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-accent transition-colors">Arecê for Kids</a></li>
             </ul>
           </div>
 
