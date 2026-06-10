@@ -52,7 +52,7 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className={
                   cta.highlight
-                    ? "px-4 py-2 rounded-full text-sm font-semibold bg-accent text-accent-foreground hover:bg-accent/90 transition-all shadow-md"
+                    ? "px-4 py-2 rounded-full text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-md"
                     : "px-4 py-2 rounded-full text-sm font-semibold border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
                 }
               >
