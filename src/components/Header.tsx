@@ -15,8 +15,8 @@ const Header = () => {
 
   const ctaItems = [
     { label: "Lista de Espera", href: "https://tally.so/r/q4WgRO", highlight: false },
-    { label: "Arecê for Kids", href: "https://areceforkids.lovable.app", highlight: true },
     { label: "Investidores", href: "https://tally.so/r/obzjvx", highlight: false },
+    { label: "Arecê for Kids", href: "https://areceforkids.lovable.app", highlight: true },
   ];
 
   return (
