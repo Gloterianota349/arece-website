@@ -15,8 +15,8 @@ const Header = () => {
 
   const ctaItems = [
     { label: "Lista de Espera", href: "https://tally.so/r/q4WgRO", highlight: false },
-    { label: "Arecê for Kids", href: "https://areceforkids.lovable.app", highlight: true },
     { label: "Investidores", href: "https://tally.so/r/obzjvx", highlight: false },
+    { label: "Arecê for Kids", href: "https://areceforkids.lovable.app", highlight: true },
   ];
 
   return (
@@ -52,7 +52,7 @@ const Header = () => {
                 rel="noopener noreferrer"
                 className={
                   cta.highlight
-                    ? "px-4 py-2 rounded-full text-sm font-semibold bg-accent text-accent-foreground hover:bg-accent/90 transition-all shadow-md"
+                    ? "px-4 py-2 rounded-full text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-md"
                     : "px-4 py-2 rounded-full text-sm font-semibold border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
                 }
               >
@@ -87,7 +87,7 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex flex-col gap-2 pt-4 border-t border-border">
+            <div className="flex flex-wrap gap-2 pt-4 border-t border-border">
               {ctaItems.map((cta) => (
                 <a
                   key={cta.href}
@@ -97,8 +97,8 @@ const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                   className={
                     cta.highlight
-                      ? "w-full text-center px-4 py-3 rounded-full text-sm font-semibold bg-accent text-accent-foreground hover:bg-accent/90 transition-all"
-                      : "w-full text-center px-4 py-3 rounded-full text-sm font-semibold border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
+                      ? "px-4 py-2 rounded-full text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
+                      : "px-4 py-2 rounded-full text-sm font-semibold border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
                   }
                 >
                   {cta.label}

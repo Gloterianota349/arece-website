@@ -9,19 +9,19 @@ const TeamSection = () => {
   const team = [
     {
       name: "Beatriz Mota",
-      role: "Formulação Cosmética",
+      role: "CPO - Chief Product Officer",
       description: "Responsável pela formulação cosmética do produto",
       image: beatriz
     },
     {
       name: "Gabriela Salomão",
-      role: "Testes Científicos",
+      role: "COO - Chief Operating Officer",
       description: "Responsável pelos testes científicos e validação",
       image: gabriela
     },
     {
       name: "Guilherme Andrade",
-      role: "Análise Mercadológica",
+      role: "CFO - Chief Financial Officer",
       description: "Responsável pela análise e projeção mercadológica",
       image: guilherme
     },
@@ -55,11 +55,11 @@ const TeamSection = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto justify-items-center">
+        <div className="flex flex-wrap justify-center gap-8 max-w-5xl mx-auto">
           {team.map((member, index) => (
             <div 
               key={index}
-              className="group text-center"
+              className="group text-center w-full sm:w-[260px]"
             >
               <div className="relative mb-6 mx-auto w-48 h-48">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full opacity-20 group-hover:opacity-30 transition-opacity -z-10" />
