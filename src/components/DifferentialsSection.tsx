@@ -15,7 +15,7 @@ const DifferentialsSection = () => {
   }, {
     icon: MapPin,
     title: "Origem Brasileira",
-    description: "Utiliza óleo de copaíba, um ativo nativo da biodiversidade brasileira"
+    description: "Utiliza um ativo nativo da biodiversidade brasileira"
   }, {
     icon: Shield,
     title: "Proteção Garantida",

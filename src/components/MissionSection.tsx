@@ -15,7 +15,7 @@ const MissionSection = () => {
     {
       icon: Leaf,
       title: "Valorização da Biodiversidade",
-      description: "Utilizamos ativos nativos, como o óleo de copaíba, fomentando a economia local, a conservação e o uso responsável dos recursos naturais."
+      description: "Utilizamos ativos nativos brasileiros, fomentando a economia local, a conservação e o uso responsável dos recursos naturais."
     },
     {
       icon: Sparkles,
@@ -47,7 +47,7 @@ const MissionSection = () => {
             <p className="text-primary-foreground/90 leading-relaxed">
               Desenvolver e entregar produtos sustentáveis que combinem autocuidado, 
               aroma e proteção contra mosquitos, utilizando ingredientes naturais e 
-              ativos nativos como o óleo de copaíba. Transformamos pesquisa científica 
+              ativos nativos. Transformamos pesquisa científica 
               em soluções reais, práticas e eficazes para reduzir os impactos das 
               arboviroses e melhorar a qualidade de vida das pessoas.
             </p>
