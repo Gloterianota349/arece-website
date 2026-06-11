@@ -63,7 +63,7 @@ const HeroSection = () => {
           </div>
 
           <div className="mt-16 flex justify-center animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            <a href="#produto" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-all hover:scale-105">
+            <a href="#produto" className="inline-flex items-center gap-2 bg-transparent text-primary px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/10 transition-all hover:scale-105">
               Conhecer o Produto
               <ArrowDown size={16} />
             </a>
