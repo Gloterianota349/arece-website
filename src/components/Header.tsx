@@ -55,7 +55,7 @@ const Header = () => {
                     ? "px-4 py-2 rounded-full text-sm font-semibold text-white transition-all shadow-md hover:opacity-90"
                     : "px-4 py-2 rounded-full text-sm font-semibold border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
                 }
-                style={cta.highlight ? { backgroundImage: "linear-gradient(90deg, #ef4444, #f59e0b, #eab308, #22c55e, #3b82f6, #8b5cf6)" } : undefined}
+                style={cta.highlight ? { backgroundImage: "linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)))" } : undefined}
               >
                 {cta.label}
               </a>
@@ -101,7 +101,7 @@ const Header = () => {
                         ? "block font-medium py-1 bg-clip-text text-transparent"
                         : "block text-foreground/80 hover:text-primary transition-colors font-medium py-1"
                     }
-                    style={cta.highlight ? { backgroundImage: "linear-gradient(90deg, #ef4444, #f59e0b, #eab308, #22c55e, #3b82f6, #8b5cf6)" } : undefined}
+                    style={cta.highlight ? { backgroundImage: "linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)))" } : undefined}
                   >
                     {cta.label}
                   </a>
