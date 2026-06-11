@@ -47,8 +47,8 @@ const HeroSection = () => {
               href="https://areceforkids.lovable.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 inline-flex items-center justify-center px-7 py-4 rounded-full text-base font-semibold text-white transition-all shadow-lg hover:scale-105 hover:opacity-90"
-              style={{ backgroundImage: "linear-gradient(90deg, #ef4444, #f59e0b, #eab308, #22c55e, #3b82f6, #8b5cf6)" }}
+              className="flex-1 inline-flex items-center justify-center px-7 py-4 rounded-full text-base font-semibold text-primary-foreground transition-all shadow-lg hover:scale-105 hover:opacity-90"
+              style={{ backgroundImage: "linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)))" }}
             >
               Arecê for Kids
             </a>
