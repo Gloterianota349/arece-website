@@ -1,13 +1,13 @@
-# Arecê — Website Institucional
+# Arecê — Website Institucional 🌿
 
 <p align="center">
   <img src="src/assets/logo-full.png" alt="Arecê Logo" width="220" />
 </p>
 
 <p align="center">
-  **Essência que encanta, proteção que te acompanha.**
+  <b>Essência que encanta, proteção que te acompanha</b>
   <br />
-  Ciência, biodiversidade brasileira e inovação em uma experiência de autocuidado.
+  Ciência, biodiversidade brasileira e inovação em uma experiência de autocuidado
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ---
 
-## Sobre o projeto
+## Sobre o projeto 🍃
 
 O **Arecê Website** é o site institucional da Arecê, uma iniciativa que conecta ciência, natureza e inovação para desenvolver soluções de autocuidado inspiradas na biodiversidade brasileira.
 
@@ -168,7 +168,7 @@ Desenvolvimento, tecnologia e inovação.
 ---
 
 <p align="center">
-  **Arecê — Proteção que vem da raiz.**
+  <b>Arecê — Proteção que vem da raiz</b>
   <br />
-  Ciência, natureza e inovação em harmonia.
+  Ciência, natureza e inovação em harmonia
 </p>
